@@ -27,7 +27,7 @@ ENV BUILD="ca-certificates \
 
 ENV DEV="clang clang-dev cmake pkgconf \
          openblas-dev gstreamer-dev gst-plugins-base-dev \
-         libgphoto2-dev libjpeg-turbo-dev libpng-dev \
+         libgphoto2-dev libjpeg-turbo-dev libpng-dev x264-dev \
          tiff-dev jasper-dev ffmpeg-dev libavc1394-dev"
 
 RUN apk add --no-cache ${DEV} && \
